@@ -19,6 +19,6 @@ class minecraft {
   }
   service {'minecraft':
     ensure => running,
-    ensure => true,
+    enable => true,
   }
 }
